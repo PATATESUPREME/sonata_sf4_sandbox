@@ -1,0 +1,10 @@
+sonata_admin:
+    group:
+        classification:     Classification
+        extra:              Extra
+        media:              Media Library
+        news:               News
+        notification:       Notification
+        users:              Users
+    group_item:
+        api_doc: Nelmio Api Doc

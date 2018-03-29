@@ -74,6 +74,9 @@
     "exsyst/swagger": {
         "version": "v0.3.2"
     },
+    "friendsofsymfony/ckeditor-bundle": {
+        "version": "1.0.0"
+    },
     "friendsofsymfony/rest-bundle": {
         "version": "2.2",
         "recipe": {
@@ -85,6 +88,9 @@
     },
     "friendsofsymfony/user-bundle": {
         "version": "2.1.x-dev"
+    },
+    "guzzlehttp/psr7": {
+        "version": "1.4.2"
     },
     "imagine/imagine": {
         "version": "v0.6.3"
@@ -113,6 +119,9 @@
     "knplabs/gaufrette": {
         "version": "v0.3.1"
     },
+    "knplabs/knp-markdown-bundle": {
+        "version": "1.7.0"
+    },
     "knplabs/knp-menu": {
         "version": "2.3.0"
     },
@@ -130,6 +139,9 @@
             "version": "2.6",
             "ref": "02ad65038eceb5231c73a530b67beedd955c40ed"
         }
+    },
+    "michelf/php-markdown": {
+        "version": "1.8.0"
     },
     "nelmio/api-doc-bundle": {
         "version": "2.13",
@@ -173,6 +185,9 @@
     "psr/container": {
         "version": "1.0.0"
     },
+    "psr/http-message": {
+        "version": "1.0.1"
+    },
     "psr/log": {
         "version": "1.0.2"
     },
@@ -212,6 +227,9 @@
     "sonata-project/cache": {
         "version": "2.0.1"
     },
+    "sonata-project/cache-bundle": {
+        "version": "2.4.2"
+    },
     "sonata-project/classification-bundle": {
         "version": "3.6.1"
     },
@@ -233,11 +251,20 @@
     "sonata-project/exporter": {
         "version": "1.8.0"
     },
+    "sonata-project/formatter-bundle": {
+        "version": "4.x-dev"
+    },
     "sonata-project/google-authenticator": {
         "version": "2.0.0"
     },
+    "sonata-project/intl-bundle": {
+        "version": "2.4.0"
+    },
     "sonata-project/media-bundle": {
         "version": "3.10.1"
+    },
+    "sonata-project/news-bundle": {
+        "version": "3.4.0"
     },
     "sonata-project/notification-bundle": {
         "version": "3.3.1"
@@ -245,26 +272,35 @@
     "sonata-project/seo-bundle": {
         "version": "2.5.0"
     },
+    "sonata-project/timeline-bundle": {
+        "version": "3.3.0"
+    },
+    "sonata-project/translation-bundle": {
+        "version": "2.3.0"
+    },
     "sonata-project/user-bundle": {
         "version": "4.1.0"
+    },
+    "stephpy/timeline": {
+        "version": "v1.1.1"
+    },
+    "stephpy/timeline-bundle": {
+        "version": "v2.5.1"
     },
     "swiftmailer/swiftmailer": {
         "version": "v6.0.2"
     },
-    "symfony-cmf/routing": {
-        "version": "2.0.3"
+    "symfony/acl-bundle": {
+        "version": "v1.0.0"
     },
-    "symfony-cmf/routing-bundle": {
-        "version": "2.0",
+    "symfony/apache-pack": {
+        "version": "1.0",
         "recipe": {
             "repo": "github.com/symfony/recipes-contrib",
             "branch": "master",
-            "version": "2.0",
-            "ref": "d6774811e3ab401d483ef3b138a8066c5726b616"
+            "version": "1.0",
+            "ref": "c82bead70f9a4f656354a193df7bf0ca2114efa0"
         }
-    },
-    "symfony/acl-bundle": {
-        "version": "v1.0.0"
     },
     "symfony/asset": {
         "version": "v4.0.2"
@@ -346,6 +382,9 @@
     },
     "symfony/orm-pack": {
         "version": "v1.0.5"
+    },
+    "symfony/polyfill-ctype": {
+        "version": "v1.8.0"
     },
     "symfony/polyfill-intl-icu": {
         "version": "v1.6.0"

@@ -5,14 +5,16 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Routing\Annotation\Route;
 
-class BaseController extends Controller {
+class BaseController extends Controller
+{
 
     /**
      * Function: home().
      *
-     * @route("/")
+     * @Route("/", name="homepage")
      */
-    public function home() {
+    public function homepageAction()
+    {
         return $this->render('base.html.twig');
     }
 }

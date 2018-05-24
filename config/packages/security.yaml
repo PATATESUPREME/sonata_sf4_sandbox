@@ -48,7 +48,8 @@ security:
                 use_forward:    false
                 check_path:     /login_check
                 failure_path:   null
-            logout:             true
+            logout:
+                handlers: ['sonata.page.cms_manager_selector']
             anonymous:          true
 
     access_control:

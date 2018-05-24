@@ -1,0 +1,4 @@
+# Sonata Cache Bundle
+sonata_cache_cache:
+    resource: '@SonataCacheBundle/Resources/config/routing/cache.xml'
+    prefix: /
